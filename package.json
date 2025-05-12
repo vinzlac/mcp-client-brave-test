@@ -1,0 +1,22 @@
+{
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "description": "MCP Client in TypeScript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "@modelcontextprotocol/sdk": "1.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+} 
